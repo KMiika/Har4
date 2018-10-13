@@ -4,13 +4,22 @@
     <meta charset="utf-8">
     <title>Harjoitus4</title>
     <link rel="stylesheet" href="css/mystyle.css">
+    <script src="myFunctions.js" charset="utf-8"></script>
+    <script src="form.js" charset="utf-8"></script>
+
+    </script>
   </head>
   <body>
     <div id="header">
       This is header
     </div>
     <div id="menu">
-      Menu
+      <ul>
+        <li> <a onclick="loadXMLDoc('first.html')">First Page</a> </li>
+        <li> <a onclick="loadXMLDoc('second.php')">Second Page</a> </li>
+        <li> <a onclick="loadXMLDoc('third.html')">Third Page</a> </li>
+        <li> <a onclick="loadXMLDoc('fourth.html')">Fourth Page</a> </li>
+      </ul>
     </div>
     <div id="content">
       Here is the content
